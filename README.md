@@ -1,4 +1,4 @@
-# KamaCache
+# LrxCache
 ## 项目介绍
 本项目使用多个页面替换策略实现一个线程安全的缓存：
 - LRU：最近最久未使用
@@ -36,7 +36,7 @@ make
 ```
 make clean
 ```
-
+![alt text](/LrxCache/images/cmake&make.png)
 ## 运行
 ```
 ./main
