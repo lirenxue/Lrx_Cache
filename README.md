@@ -1,9 +1,4 @@
 # KamaCache
-
-> ⭐️ 本项目为[【代码随想录知识星球】](https://programmercarl.com/other/kstar.html) 教学项目   
-> ⭐️ 在 [缓存项目文档](https://www.programmercarl.com/other/project_huancun.html)  里详细讲解：**项目前置知识 + 项目细节 +  代码解读 + 项目难点 + 面试题与回答 + 简历写法  + 项目拓展**。 全面帮助你用这个项目求职面试！
-
-
 ## 项目介绍
 本项目使用多个页面替换策略实现一个线程安全的缓存：
 - LRU：最近最久未使用
@@ -51,4 +46,6 @@ make clean
 不同缓存策略缓存命中率测试对比结果如下：
 （ps: 该测试代码只是尽可能地模拟真实的访问场景，但是跟真实的场景仍存在一定差距，测试结果仅供参考。）
 
-![alt text](images/image.png)
+![alt text](/LrxCache/images/test.png)
+## 测试代码
+[testAllCachePolicy](/LrxCache/testAllCachePolicy.cpp)
